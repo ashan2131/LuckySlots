@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lucky Slots</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Lucky Slots</h1>
+    
+    <div class="slot-machine">
+      <div class="slots">
+        <div class="slot" id="slot1">
+          <div class="slot-wrapper"></div>
+        </div>
+        <div class="slot" id="slot2">
+          <div class="slot-wrapper"></div>
+        </div>
+        <div class="slot" id="slot3">
+          <div class="slot-wrapper"></div>
+        </div>
+      </div>
+      
+      <div class="controls">
+        <div class="info">
+          <div class="balance">
+            <span>Balance: $</span>
+            <span id="balance">1000</span>
+          </div>
+          <div class="win">
+            <span>Win: $</span>
+            <span id="win">0</span>
+          </div>
+        </div>
+        
+        <div class="bet-controls">
+          <button id="bet-down">-</button>
+          <div class="bet">
+            <span>Bet: $</span>
+            <span id="bet-amount">10</span>
+          </div>
+          <button id="bet-up">+</button>
+        </div>
+        
+        <button id="spin-button">SPIN</button>
+      </div>
+    </div>
+    
+    <div class="message" id="message"></div>
+  </div>
+  
+  <script type="module" src="main.js"></script>
+</body>
+</html>
